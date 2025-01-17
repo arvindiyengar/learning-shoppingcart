@@ -1,0 +1,32 @@
+
+
+
+1990 -  HARD DISK  -> 2010 -  [SVN] [GIT]  -> 2010 -  [GIT]--> latest
+
+
+SVN -> Code on Internet --> DEV / PROD 
+GIT -> Code on Internet --> dev, test, stage, prod
+
+
+SDLC: Soft dev life cycle : dev, test, stage, prod
+
+
+
+dev 1: ---------------------> [copy2] ~~~~~~~~~~~~~~~~~~~~
+
+MAIN: ---------------------> ++++++++++++++++ ~~~~~~~~~~~~~~~~~~~~ 
+
+
+dev2: ---------------------> [COPY - MAIN + changes] ++++++++++++++++ [copy]
+
+
+merge from copy to main
+
+merge copy2 to main
+
+--------------------->++++++++++++++
+
+
+branch: Code segment
+
+main railway
