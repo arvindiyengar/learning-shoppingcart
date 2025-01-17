@@ -1,0 +1,21 @@
+
+
+
+Prod
+[ec2: python application]
+
+pip: package manager
+
+pip install package-name
+pip install requests
+pip install numpy
+pip install skipy
+
+- A1 Django1.0
+- A2 Django2.0 + numpy
+- A3 numpy3.0 + skipy
+
+
+- A1 [venv] pip install Dhango 1.1
+- A2 [small-python-world2] pip install Django 3.0
+- A3 [small-python-world3] pip install numo3.0
