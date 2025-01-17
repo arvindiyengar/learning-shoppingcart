@@ -20,7 +20,7 @@ MAIN: ---------------------> ++++++++++++++++ ~~~~~~~~~~~~~~~~~~~~
 dev2: ---------------------> [COPY - MAIN + changes] ++++++++++++++++ [copy]
 
 
-merge from copy to main
+merge from copy to main [ done ]
 
 merge copy2 to main
 
@@ -30,3 +30,21 @@ merge copy2 to main
 branch: Code segment
 
 main railway
+
+
+
+postgres, mysql
+SQL: 
+
+Company: Github[GIT], Gitlab[git], Bitbucket[git]
+
+
+
+  main: default branch
+[laptop]
+
+
+2 concepts: 
+
+- local mode
+- staging mode
