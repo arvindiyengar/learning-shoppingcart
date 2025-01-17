@@ -1,0 +1,61 @@
+--------------LAPTOP---------
+[main]
+- local []
+- staging []
+- commit[checkpoint]
+
+
+COMMIT LOG
+1[719872658481c5b59837785910e939c5545947ba]: This is my first message  <----- here
+2[1732ed044c22b2366463bbdc099ae67f06f9a665]: Second commit <----HEAD 
+
+
+
+
+-----------------> main
+c1
+c2
+c3
+c4 <--- HEAD
+
+
+-----------------> feature1 +++++
+
+
+from feature --> main [Pull request]
+
+
+
+- local []
+- staging []
+- commit[checkpoint]
+
+
+Commands
+git add <filename> local to staging
+git commit -m "Message" commit checkpoint
+git log shows all commit logs
+git checkout <commit-id> going back to checkpoint
+git checkout -b <new-branch-name> creates a new branch from existing
+git branch shows all branches
+git merge <b1> copies code from b1 to current branch
+
+
+
+GOAL: from feature --> main [Pull request]
+
+
+GITHUB / GITLAB
+
+[laptop]                [github]
+[local branch]b1             origin/b1
+
+
+b1               origin/b1 [remote-branch]
+
+c1                   c1, c2, c3, c4, c5, c6 <--HEAD
+c2
+c3
+c4
+c5 
+c6 <---HEAD
