@@ -1,0 +1,85 @@
+
+
+-------- WebApp ----- 
+ORM
+MVC - model, view ( UI ), controller ( model <=> view)
+
+
+3 
+
+UI | Backend | DB
+
+Amazon -> UI | APIs | Backend ( workers) | DB
+
+
+
+UI --> API --> DB 
+   --> Backend --> DB
+
+Chrome: https://amazon.com
+
+Internet: HTTP Verb: GET PUT POST DELETE
+
+DNS: 8.8.8.8 --> 123.45.55.32:443 [GET]
+
+205.251.242.103
+
+GET https://amazon.com/api/v1/user
+
+{EC2 machine}
+- Webserver ( Apache, Nginx, tomcat)
+- HTML send + JS --> Chrome
+- API server ( backend )
+
+/health --> {"hello": "ok"}
+
+
+JS ( browser )
+func start(){
+    // get user detail
+    API --> https://amazon.com/api/v1/user 
+    output
+    {
+        "name": "Arvind", 
+        "age: "32",
+        .......
+    }
+
+    // get all shopping items 
+}
+
+func cart(){
+    https://amazon.com/api/v1/order POST {}
+}
+
+
+1. Payment complete [10 table] 1ms
+2. Check inventory [3 table] 200ms
+----- 201 ms DONE
+
+
+RabbitMQ, SQS, SNS, Redis, Kafka 
+
+
+Producer(API) --> Q --> Consumer(Worker)
+
+Queue: [    x ] [ 100 capacity]
+
+celery
+
+
+Worker {t1 -> {#23344; humair; laptop}}
+
+3. Invoice generate [100 table] 300 ms
+4. Email generate [30 table] 500ms
+
+Worker 2 x x x
+
+Worker 3 x x x x x x x x
+
+Recommended - 200ms - 1 seconds
+
+x number of API requests server can take
+[.random2.txt ..........]
+
+
